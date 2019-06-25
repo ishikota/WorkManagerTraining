@@ -17,46 +17,18 @@
 06-25 10:57:22.031  5829  5851 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=85532d7b-a5b2-48fa-bda7-8630bd9b2805, tags={ example.com.workmanagertraining.WorkerB } ]
 
 
-06-25 10:35:05.826  5829  5829 D WM      : executeAllTasks
-06-25 10:35:15.886  5829  5868 D WM      : WorkerA started
-06-25 10:35:16.887  5829  5868 D WM      : taskA is failed...
-06-25 10:35:16.887  5829  5868 E WM      : taskA is failed...
-06-25 10:35:16.889  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:35:20.884  5829  5885 D WM      : WorkerB started
-06-25 10:35:22.889  5829  5885 D WM      : taskB is failed...
-06-25 10:35:22.889  5829  5885 E WM      : taskB is failed...
-06-25 10:35:22.891  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=5e80c8af-4071-4ef7-aee5-b7101dfa52bb, tags={ example.com.workmanagertraining.WorkerB } ]
-06-25 10:35:36.904  5829  5889 D WM      : WorkerA started
-06-25 10:35:37.907  5829  5889 D WM      : taskA is failed...
-06-25 10:35:37.907  5829  5889 E WM      : taskA is failed...
-06-25 10:35:37.909  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:35:42.909  5829  5868 D WM      : WorkerB started
-06-25 10:35:44.911  5829  5868 D WM      : taskB is succeeded !!
-06-25 10:35:44.914  5829  5851 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=5e80c8af-4071-4ef7-aee5-b7101dfa52bb, tags={ example.com.workmanagertraining.WorkerB } ]
-06-25 10:36:07.926  5829  5885 D WM      : WorkerA started
-06-25 10:36:08.927  5829  5885 D WM      : taskA is failed...
-06-25 10:36:08.927  5829  5885 E WM      : taskA is failed...
-06-25 10:36:08.929  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:37:07.934  5829  5889 D WM      : WorkerA started
-06-25 10:37:08.936  5829  5889 D WM      : taskA is failed...
-06-25 10:37:08.936  5829  5889 E WM      : taskA is failed...
-06-25 10:37:08.938  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:38:07.934  5829  5868 D WM      : WorkerA started
-06-25 10:38:08.936  5829  5868 D WM      : taskA is failed...
-06-25 10:38:08.937  5829  5868 E WM      : taskA is failed...
-06-25 10:38:08.938  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:39:08.955  5829  5885 D WM      : WorkerA started
-06-25 10:39:09.957  5829  5885 D WM      : taskA is failed...
-06-25 10:39:09.957  5829  5885 E WM      : taskA is failed...
-06-25 10:39:09.959  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:40:19.973  5829  5889 D WM      : WorkerA started
-06-25 10:40:20.975  5829  5889 D WM      : taskA is succeeded !!
-06-25 10:40:20.976  5829  5851 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=62ad5bfe-5298-4cea-8c8b-44583a893716, tags={ example.com.workmanagertraining.WorkerA } ]
-06-25 10:40:20.980  5829  5851 I WM-WorkerWrapper: Setting status to enqueued for a6249201-28b7-49d9-9f02-caf32b10cc5e
-06-25 10:40:31.020  5829  5868 D WM      : WorkerC started
-06-25 10:40:31.020  5829  5868 D WM      : taskC is failed...
-06-25 10:40:31.020  5829  5868 E WM      : taskB is failed...
-06-25 10:40:31.022  5829  5851 I WM-WorkerWrapper: Worker result RETRY for Work [ id=a6249201-28b7-49d9-9f02-caf32b10cc5e, tags={ example.com.workmanagertraining.WorkerC } ]
-06-25 10:40:51.036  5829  5885 D WM      : WorkerC started
-06-25 10:40:51.037  5829  5885 D WM      : ようこそ Work Manager !!
-06-25 10:40:51.038  5829  5851 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=a6249201-28b7-49d9-9f02-caf32b10cc5e, tags={ example.com.workmanagertraining.WorkerC } ]
+06-25 11:16:47.456  2696  2696 D WM      : executeAllTasks
+06-25 11:16:57.566  2696  3566 D WM      : WorkerB started
+06-25 11:16:57.574  2696  3567 D WM      : WorkerA started
+06-25 11:16:58.577  2696  3567 D WM      : taskA is failed...
+06-25 11:16:58.577  2696  3567 E WM      : taskA is failed...
+06-25 11:16:58.579  2696  2739 I WM-WorkerWrapper: Worker result RETRY for Work [ id=556178d8-7eeb-4c3d-9d6b-728d7a5e4045, tags={ example.com.workmanagertraining.WorkerA } ]
+06-25 11:16:59.567  2696  3566 D WM      : taskB is succeeded !!
+06-25 11:16:59.571  2696  2739 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=077737e5-19c0-4e60-aa07-48c854f6b254, tags={ example.com.workmanagertraining.WorkerB } ]
+06-25 11:17:28.017  2696  3573 D WM      : WorkerA started
+06-25 11:17:29.024  2696  3573 D WM      : taskA is succeeded !!
+06-25 11:17:29.027  2696  2739 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=556178d8-7eeb-4c3d-9d6b-728d7a5e4045, tags={ example.com.workmanagertraining.WorkerA } ]
+06-25 11:17:29.029  2696  2739 I WM-WorkerWrapper: Setting status to enqueued for 468862c8-4fe1-4bce-89de-3f114536a508
+06-25 11:17:39.069  2696  3567 D WM      : WorkerC started
+06-25 11:17:39.069  2696  3567 D WM      : ようこそ Work Manager !!
+06-25 11:17:39.070  2696  2739 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=468862c8-4fe1-4bce-89de-3f114536a508, tags={ example.com.workmanagertraining.WorkerC } ]
