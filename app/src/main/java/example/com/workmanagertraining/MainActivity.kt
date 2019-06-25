@@ -60,7 +60,12 @@ class WorkerA(context: Context, params: WorkerParameters) : Worker(context, para
             return Result.success(outData)
         } catch (e: Exception) {
             Log.e("WM", e.message)
-            return Result.retry()
+            if (runAttemptCount < 2) {
+                return Result.retry()
+            } else {
+                Log.d("WM", "WorkerA failed $runAttemptCount times. give up...")
+                return Result.failure()
+            }
         }
     }
 
@@ -80,7 +85,12 @@ class WorkerB(context: Context, params: WorkerParameters) : Worker(context, para
             return Result.success(outData)
         } catch (e: Exception) {
             Log.e("WM", e.message)
-            return Result.retry()
+            if (runAttemptCount < 2) {
+                return Result.retry()
+            } else {
+                Log.d("WM", "WorkerB failed $runAttemptCount times. give up...")
+                return Result.failure()
+            }
         }
     }
 
